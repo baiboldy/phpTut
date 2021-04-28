@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 70px;
+    color: rgb(93, 85, 85);
+}
+
+.searchForm {
+    margin: 5px;
+    /* border: 1px solid black; */
+    width: 320px;
+}
+
+.searchForm form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type=submit] {
+    padding: 10px;
+    width: 100px;
+    margin-left: 5px;
+}
+
+input[type=text] {
+    width: 90%;
+}
+
+.addForm{
+    width: 320px;
+    margin: 5px;
+    /* border: 1px solid black; */
+}
+
+.addForm form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    border: 1px solid black;
+    margin: 5px;
+    background-color: rgba(76, 99, 245, 0.5);
+}
+
+.item .text {
+    width: 90%;
+    padding: 20px;
+}
+
+.item .icon {
+    width: 10%;
+}
+
+.title a {
+    color: rgb(93, 85, 85);
+    text-decoration: none;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+}
